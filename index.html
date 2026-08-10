@@ -1614,67 +1614,93 @@ Start a Conversation
 
 
 <h2 class="section-title">
-
+   
 Let's talk.
-
-</h2>
-
-
-<p class="section-text">
 
 For supplier, brand and business enquiries,
 contact DISTYNO directly.
 
-</p>
+<form action="https://formsubmit.co/sam@distyno.com" method="POST" class="contact-form">
 
+  <input type="hidden" name="_subject" value="New DISTYNO Website Enquiry">
+  <input type="hidden" name="_captcha" value="false">
+  <input type="hidden" name="_template" value="table">
 
-<a
-href="mailto:sam@distyno.com"
-class="email"
->
+  <div class="form-group">
+    <label for="name">Name</label>
+    <input
+      type="text"
+      id="name"
+      name="name"
+      placeholder="Your name"
+      required
+    >
+  </div>
 
-sam@distyno.com
+  <div class="form-group">
+    <label for="company">Company</label>
+    <input
+      type="text"
+      id="company"
+      name="company"
+      placeholder="Company name"
+    >
+  </div>
 
-</a>
+  <div class="form-group">
+    <label for="email">Email</label>
+    <input
+      type="email"
+      id="email"
+      name="email"
+      placeholder="you@company.com"
+      required
+    >
+  </div>
 
+  <div class="form-group">
+    <label for="phone">Phone</label>
+    <input
+      type="tel"
+      id="phone"
+      name="phone"
+      placeholder="Phone number"
+    >
+  </div>
 
-</div>
+  <div class="form-group">
+    <label for="website">Company Website</label>
+    <input
+      type="url"
+      id="website"
+      name="website"
+      placeholder="https://yourcompany.com"
+    >
+  </div>
 
+  <div class="form-group">
+    <label for="message">How can we help?</label>
+    <textarea
+      id="message"
+      name="message"
+      rows="6"
+      placeholder="Tell us about your brand, products or enquiry..."
+      required
+    ></textarea>
+  </div>
 
-</div>
+  <button type="submit" class="button primary">
+    Submit Enquiry
+  </button>
 
-</section>
-
-
-
-<!-- ================================
-     FOOTER
-================================ -->
-
-<footer>
-
-
-<div>
-
-<strong>
+</form>
 
 DISTYNO
 
-</strong>
-
-
-<span>
-
 WHOLESALE & DISTRIBUTION
 
-</span>
-
-</div>
-
-
-<div>
-
 © 2026 DISTYNO. All rights reserved.
+
 
 </div>
 
